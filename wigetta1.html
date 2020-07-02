@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstrap-Inicio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/margen.css">
+
+</head>
+<body>
+
+    <nav class="nav-wrapper navbar-fixed blue-grey darken-2">
+        <div class="container">
+            <a href="#" class="brand-logo">BookStrap</a>
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#" class="dropdown-trigger" data-target="id_drop">
+                        Categorías
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Recomendados</a></li>
+                <button class="btn">Ingresar</button>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="menu-responsive">
+        <li>
+            <a href="#" class="dropdown-trigger" data-target="id_drop">
+                Categorías
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+        </li>
+        <li><a href="#">Novedades</a></li>
+        <li><a href="#">Recomendados</a></li>
+        <button class="btn">Ingresar</button>
+    </ul>
+
+    <ul class="dropdown-content" id="id_drop">
+        <li><a href="#">Cómics y Manga</a></li>
+        <li><a href="#">Juvenil</a></li>
+        <li><a href="#">Literatura</a></li>
+        <li><a href="#">Otras Categorías</a></li>
+    </ul>   
+
+    <div class="container">
+        <div class="row">
+            <div class="col s3 responsive-img"></br> </br><img src="https://static5planetadelibroscom.cdnstatics.com/usuaris/libros/fotos/175/m_libros/portada_wigetta_vegetta777_201604290747.jpg">  </div>
+            <div class="col s9 margen"></br> </br><h2 >  Wigetta - Un viaje mágico</h2></div> 
+            <div class="col s9"><h4>  Sinópsis</h4></div>  
+            <div class="col s9"><p>Para Willy y Vegetta, una invasión zombi que fulmina el sitio en el que vives es solo el principio de una gran aventura. Viajes a las profundidades, intensos duelos al amanecer, misteriosas brujas y temibles gigantes...
+
+                Para salvar a sus amigos y devolver su pueblo a la normalidad, la pareja más intrépida de YouTube se enfrentará a todos los peligros, acompañados por sus divertidas mascotas, Trotuman y Vakypandy. ¡Y por ti, que podrás dejar tu firma en sus aventuras a golpe de lápiz! </p></div>
+        </div>
+        
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function()
+        {
+            M.AutoInit();
+        });
+    </script>
+
+</body>
+</html>
