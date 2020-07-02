@@ -1,3 +1,9 @@
 .margen{
-    margin-right: 100%;
+    align-content: center;
+}
+.tam{
+    width: 50px;
+}
+.margenw{
+    margin-right: 30%;
 }
