@@ -7,3 +7,40 @@
 {
     border-radius: 60px;
 }
+
+.tam
+{
+    width: 300px;
+    background-position: center;
+}
+
+.texto
+{
+    color: white;
+    text-align: center;
+}
+
+.centrar
+{
+    position: absolute;
+    font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fondo
+{
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.fondo2
+{
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
